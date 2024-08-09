@@ -163,7 +163,7 @@ body {
     height: 74px;
     background-color: #F4F4F4;
     line-height: 74px;
-    padding: 0 18px;
+    padding-left: 18px;
     flex-shrink: 0;
 }
 
@@ -226,6 +226,8 @@ body {
     background-color: #0075FF;
 }
 
-.food-footer {
-    box-shadow: inset 0 0 10px yellow;
+.footer {
+    font-size: 12px;
+    letter-spacing: 0.24em;
+    color: #AAAAAA
 }
