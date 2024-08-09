@@ -1,5 +1,5 @@
 /* Reset */
-body {
+body, ul {
     margin: unset;
     padding: unset;
 }
@@ -8,6 +8,10 @@ h1 {
     margin: unset;
     font-size: unset;
     font-weight: unset;
+}
+
+li {
+    list-style: none;
 }
 
 /*Typograph*/
@@ -22,7 +26,6 @@ body {
 
 
 .food-header {
-    box-shadow: inset 0 0 10px blue;
     background-color: white;
     height: 160px;
     display: flex;
@@ -30,26 +33,37 @@ body {
     align-items: center;
 }
 
-.header_wrapper {
+.l_wrapper {
     width: 960px;
     margin: 0 auto;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header_wrapper h1 {
+.header_title {
     font-size: 24px;
     font-weight: bold;
     color: #FF6600;
 }
 
-.header_wrapper img {
+.header_img {
     width: 124px;
 }
 
 .food-main {
     box-shadow: inset 0 0 10px green;
+    margin: 30px 0;
+    display: flex;
+    
+}
+
+.food-main .contents {
+    background-color: aqua;
+    flex-grow: 1;
 }
 
 .food-footer {
