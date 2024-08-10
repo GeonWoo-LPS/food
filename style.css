@@ -228,6 +228,7 @@ body {
     color: #AAAAAA
 }
 
+/* Tablet*/
 @media screen and (max-width: 600px) {
     .l_wrapper {
         width: 100%;
